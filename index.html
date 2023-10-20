@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James de Raat</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#evolution">Evolution</a>
+        <a href="#reflection">Reflection</a>
+        <a href="#portfolio">Portfolio</a>
+    </div>
+
+    <div class="home" id="home">
+        <div class="home-content">
+            <div class="text-container">
+                <h1>My Portfolio</h1>
+                <h2>James de Raat</h2>
+            </div>
+            <button class="explore-button">Explore</button>
+        </div>
+    </div>
+
+    </div>
+
+    <div id="about" class="section">
+        <h2>About</h2>
+        <div class="about-content">
+            <img id='about-img' src="images/face.jpg" alt="profile image">
+            <p>
+                Hello, my name is James de Raat.<br><br> 
+                
+                I am a motivated and enthusiastic Business Management / Information Technology student at the University of Queensland. 
+                My aspirations include UX design and both back-end and front-end software development. I have a strong love for all things 
+                sport, particularly cricket, which I play regularly. I love to socialise, be around people, and meet new people.
+    
+                <br><br>I am always available for the opportunity of having new learning experiences. I love challenging myself to grow as an individual.
+            </p>
+        </div>  
+    </div>
+
+    <div id="project" class="section">
+        <h2>Project: Dine Locator</h2>
+        <div class="project-content">
+            <img id="project-img" src="images/project-image.png" alt="project image">
+            <p>
+                Dine Locator is an interactive web-app that gives has been designed with the 
+                intention of allowing users the ability to find a place to eat, even if they have no idea what they desire.
+                It has been created in a way that is fun for the user, especially with its spin-the-wheel function that 
+                will randomly select a food place type and give suggestions. Its bookmark function allows for the user
+                to keep a record of food places they have loved or wish to go to for the first time.<br><br>
+
+                My role in the project was the sole coder of the web app, while I did contribute towards some documentation areas. 
+                This involved using HTML, CSS and JavaScript in order to code the front and back end of the web app in Visual Studio Code.
+                Additionally, our team had a GitHub which was used throughout the project.
+            </p>
+            <button onclick="openLink()" class="button">Go to Dine Locator</button>
+        </div>
+        
+    </div>
+
+    <div id="evolution" class="section">
+        <h2>Project Evolution</h2>
+        <div class = evolution-content>
+            <p>
+                Over the course of the semester, our team went through many different phases, namely the prototype, the MVP and the final
+                product. Over the course of this period, we recieved a significant amount of feedback which forged our decisions.
+            </p>
+
+            <h3>Project 2C - Design Proposal</h3>
+            <p>
+
+            </p>
+            <h4>Task Requirements</h4>
+            <ul>
+                <li>Design a prototype for our website</li>
+                <li>Present it to the class in 5 minute presentaiton</li>
+                <li>Utilise an API from any source</li>
+            </ul>
+
+            <h4>My Contribution</h4>
+            <ul>
+                <li>Implemented first five slides of the presentation</li>
+                <li>Attaining and breaking down the API/dataset for Dine Locator</li>
+                <li>Conducted testing on personas of Dine Locator</li>
+                <li>Determined target audience</li>
+            </ul>
+
+            <h4>Reflection</h4>
+            <p>
+                I feel as a team I felt we presented an effective concept, and something that was very feasible for this course. 
+                The only critical feedback that we received after presenting was that we did not include the team roles within our group. 
+                We felt that everyone in the group would contribute to different aspects. This was an important section of the design process
+                for us as a team since it allowed for the strucutre of the website to be determined. From this point forwards, it would be critical
+                that the implementation followed a similar structure. From this task, to project 2D, it was critical that we outlined which were the most
+                important aspects of the website, and how users would interact with the website.
+            </p>
+            <h4>Ideation</h4>
+            <p>
+                Producing a Dine Locator stemmed from Project 2A, and one of our team members' projects. Dine Locator itself came from the idea of 
+                not knowing what to eat. In this case, a web app which would be able to identify food places close to their location would be incredibly
+                helpful. In addition, if the user genuinely had no idea, the idea of the spin-the-wheel to find random food options was a critical 
+                aspect of our interaction process, almost a selling point of the idea.
+            </p>
+            <h4>Research</h4>
+            <p>
+                Our research came in many forms, but the predominant research we did as a team was into the ideaology of uncertainty, since Dine Locator 
+                directly aimed to address this issue. The next section is directly taken out of our research.<br><br>
+
+                "Our idea of the spin-the-wheel of our project, is inspired by and correlated to the two psychological phenomena: indecisiveness, and the emotions that a 
+                “gacha game” could bring to us."<br><br>
+
+                As discussed previously, the team decision to have the spin-the-wheel for helping make decisions was to help people who are
+                indecisive to make random decisions on where to eat. Our research showed that in doing this, it could likely reduce anxiety and stress
+                that indecisiveness can cause. Addtionally, the game itself was inspired by a "gacha game". Gacha is a Japanese word, which refers to capsule
+                toy vending machines.<br><br>
+
+                In combination of those research areas, we felt that our Dine Locator concept was, in fact, of assistance to those who were indecisive and also
+                wanted to find somewhere to eat.
+            </p>
+
+            <h4>Prototype Design</h4>
+            <img src="images/prototype-design.png" alt="prototype design">
+            <p>
+                Our original prototype included these designs. While we did make changes along the evolution of Dine Locator (as will be seen later),
+                the majority of these features remained consistent throughout the project.<br><br><br>
+
+                The four pages, we as a team promoted at this stage where:
+            </p>
+
+            <ul>
+                <li>The homepage: this would be responsible for having a map which would show the food places</li>
+                <li>The spin-the-wheel page: as discussed, would be responsible for choosing a random food type and giving suggestions</li>
+                <li>The search page: give the user the ability to use preferences to find a food place</li>
+                <li>A profile page: giving the user the ability to make an account, save food places, etc (this was later changed)</li>
+            </ul>
+            
+            <h3>Project 2D - Minimum Viable Product (MVP)</h3>
+            <p>
+                The MVP (minimum viable product) was responsible for us as a team deciding on the most critical aspect of our website and
+                implementing that in a manner that is functional and effective.
+            </p>
+
+            <h4>MVP Description</h4>
+            <ul>
+                <li>
+                    Our team decided that the MVP would be implementing the spin-the-wheel page. In order to do this the we had to implement
+                    the index (homepage), which would contain a navigation bar to be able to access the spin-the-wheel page. Following this, 
+                    the spinning wheel itself would have to be implemented, before accessing the API to retrieve results based off the landing of
+                    the spin-the-wheel.
+                </li>
+                <li>This would have to be presented in a manner that is engaging to the audience. Limited to 5 minutes, this would showcase our
+                    MVP. We aimed to recieve feedback so as we could improve our final product for the final submission in week 13.
+                </li>
+            </ul>
+
+            <h4>My Contribution</h4>
+            <p>I was responsible for the entire coding of the MVP, this included:</p>
+            <ul>
+                <li>
+                    Implementing the homepage (designing a navbar that matched the prototype, placing a map which retrieved results
+                    from the API, linking to spin-the-wheel page)
+                </li>
+                <li>
+                    Implementing a spinning wheel that randomly landed on 6 different results corresponding to the industry_desc field
+                    of the API. Done in JavaScript.
+                </li>
+                <li>
+                    Attaining results from spinning wheel, and displaying different food options corresponding to the result (i.e. Cafes)
+                </li>
+                <li>
+                    Lastly, utilising CSS to make it so the spin-the-wheel was centered and the results where placed in the correct area.
+                    In most cases, attempting to remain as close to the prototype as feasibly possible.
+                </li>
+            </ul>
+            <img id="mvp-img" src="images/mvp-implemenation.png">
+
+            <h4>Reflection</h4>
+            <p>
+                The MVP presentation was met with a considerable amount of success, while we did have areas which we felt needed improvement. I felt my
+                contribution to this aspect of the project was beyond expectation and I was relatively happy with how the website itself was progresing. 
+                One of the main areas of critique we recieved as a team was that the spinning wheel, while a cool idea, was not engaging and dynamic enough
+                for the user. Upon recieving this feedback, I did tend to agree, and hence one of my main focuses leading into the final product development 
+                would be making it more engaging. Overall, it must be said that we as a team were happy with the direction of the website and felt with minor
+                improvements and the last features implemented that it would be an engaging and interactive website.
+            </p>
+
+            <h4>Remaining Implementation</h4>
+            <p>My role, up until this point, had been coding the website and this was not expected to change coming into the final submission of this project.
+                Areas which still required to be implemented at this point were:<br>
+            </p>
+                <ul>
+                    <li>Detailed search page, allowing users to search based off preferences,</li>
+                    <li>Profile page, allowing the user to make a profile and bookmark food places,</li>
+                    <li>Overall graphics of the website need to be improved, and</li>
+                    <li>Possibly change the way the results are presented on the spinning wheel page.</li>
+                </ul>
+            <p>
+                Additionally, any feedback we recieved along the journey, would be considered, and in most cases, implemented.
+            </p>
+            
+            <h3>Project 2E - Final Product and Tradeshow</h3>
+            <p>
+                This final project of the semester presented an incredible opportunity to develop the website to its full potential and present it 
+                to a group of people who would get to interact with the website.
+            </p>
+            <h4>Deliverables</h4>
+            <ul>
+                <li>Completed web application</li>
+                <li>Design report</li>
+                <li>Trade show presentation</li>
+            </ul>
+
+            <h4>My Contribution</h4>
+            <p>Like with the MVP, I was responsible for the entire implementation of the website. Contributions I made were:</p>
+            <ul>
+                <li>
+                    Altering the spin-the-wheel page so every result that was displayed had a corresponding bookmark button.
+                    If this button was clicked, that food place would be added to localStorage and hence accessed later. This was done
+                    through JavaScript.
+                </li>
+                <li>
+                    Implementing bookmarks on the website as part of the My Profile page. As mentioned, if food places were bookmarked
+                    they would be saved to localStorage. Upon this, the My Profile page would access these and display them. Additionally,
+                    a remove button was added which allowed entries to be deleted from localStorage.
+                </li>
+                <li>
+                    Implemented the search page function of Dine Locator. This page was designed so users could have a set of preferences
+                    and based off these, results would be shown from the API. 
+                </li>
+                <li>
+                    Changes were made to the homepage, which gave it an additional menu below the map by clicking 'explore'
+                </li>
+                <li>
+                    Changes were made from the spin-the-wheel page based off user feedback. This included having custom backgrounds for when
+                    the user lands on results. For example, if the user landed on restaurants, a blurred image of a restaurant would be the background
+                    upon landing. In addition to this, sound effects were added for when the user clicks spin, and when the user lands on a result.
+                </li>
+                <li>
+                    I also contributed towards the report for this submission by doing the process section.
+                </li>
+            </ul>
+
+            <h4>Tradeshow</h4>
+            <img alt="Tradeshow image">
+            <p>Tradeshow explanation</p>
+
+            <h4>Reflection</h4>
+            <p>
+                Overall, Dine Locator has been very successful in achieving what we aimed to achieve. From my perspective, my main role within the 
+                team, besides for being team leader, was to implement the coding and I am happy with what I have achieved. I felt that the feedback we
+                recieved from tutors over the majority of the course has really assisted me with making critical decisions when it came to the website.
+                The main changes that I made were with regards to the profile page. Originally, our prototype and MVP had a goal of making a login/join us
+                page which would have allowed for multiple users. Ultimately, we felt as a team that this was not necessary since the primary function of
+                this page was to bookmark food places and this could be achieved in a much simpler manner. Additionally, the search page unfortunately had
+                to be limited to just two search preferences since the dataset was limited in ways.<br><br>
+
+                This final product was a pleasure to be apart of and I am very pleased with how our team operated. The tradeshow was a success and this is
+                testament to the hard work that our team put in over the culminating weeks of the semester.
+            </p>
+
+            <h4>Final Product UI Decisions</h4>
+            <img id="mvp-img" src="images/final-product-changes.png" alt="final product">
+            <p>
+                As discussed, there were changes that were made as a result of feedback we recieved after the MVP. These are shown in the above images.
+            </p>
+        </div>
+
+        
+    </div>
+
+    <div id="reflection" class="section">
+        <h2>Course Reflection</h2>
+
+        <div class = reflection-content>
+            <h3>Expectations & Recommendations</h3>
+            <p id="reflection-heading">
+                "I expect to be fluent with APIs in HTML and JavaScript since this appears to be the primary focus of the classes and assessment pieces that follow."
+                - First journal entry
+            </p>
+            
+            <p>
+                From what has been said as part of my first journal entry, it is clear that I felt I wanted to learn more about JavaScript in particular.
+                Of course, when I wrote this I had no idea what my role within the team would be; however, this makes it relatively clear what I thought
+                the course would teach me.<br><br>
+
+                I believe that the project and course did, in fact teach me about this for numerous reasons, these include:
+            </p>
+
+            <ul>
+                <li>
+                    The content in-class contributed towards achieving this part of my first journal entry. The most prominent was in the earlier stages
+                    of the course when we went over how to access APIs first of all, and then how to implement them. I had never used APIs in all my time 
+                    at university so far so this was a mind-opening experience for me which I enjoyed massively. I feel that, from these classes, it was the
+                    starting point towards me learning to code with APIs and then this was applied to the project over the semester. I did feel; however, that
+                    the structure in which this course was taught was unusual since I felt I had no opportunity to learn PHP to the extent in which I would have
+                    felt comfortable implementing it for Dine Locator.
+                </li>
+                <li>
+                    The second aspect that helped achieve this goal was through the actual project itself. As I was the sole coder of the team's website,
+                    it gave me a large amount of responsibility for the website and I feel that I used this to great effect to learn about how to access APIs
+                    and harness its data for the purpose of a website. Not only did I enjoy the process of working with APIs but I also enjoyed determining
+                    how I could use this data to make a functional website.<br><br>
+
+                    Perhaps the only limitation to this was the time that I had readily available for achieving what I necessarily wanted to achieve. For example
+                    there were other features that I wanted to add to the website that I did not have time to do. This was mainly due to me being the only
+                    person available to code. My team did not feel comfortable coding so I took it on as my job.
+                </li>
+                <li>
+                    While this point did not mention CSS as a feature of learning, I did also feel that CSS was a major part of this project as far as my 
+                    learning was considered. While I had done CSS in the past, I did learn a considerable amount of throughout this course. 
+                </li>
+            </ul>
+
+            <p id="reflection-heading">
+                "I hope that I can prosper in a good team environment, and that everyone has their allocated work and achieves it. 
+                As a result of this, I hope to achieve a good grade in this course."
+                - First journal entry
+            </p>
+
+            <p>
+                This point was less focused on the actual learning of the course, but more on the team aspect of the course which, as mentioned throughout this
+                portfolio, is a critical component of this project.<br><br>
+
+                I do believe that this criteria for the course was met mostly, but did have issues for these reasons:
+            </p>
+
+            <ul>
+                <li>
+                    Perhaps the main issue I felt as a team was the workload that was placed on me throughout the course. I always wanted to be up-to-date
+                    with the content and on top of this project, but it did not always feel that was the case with my team. Being the team leader, I felt
+                    it was my responsibility to get everyone doing their parts appropriately, but it did feel as if I did more work than the other individuals
+                    a part of the team. That being said, in the end a lot of the written components were completed without my assistance, but it would have 
+                    been nice, at times, to have some assistance with the code. 
+                </li>
+                <li>
+                    On another note, I did feel that our team did work well together in the sense that we had similar visions on where we wanted the website to go.
+                    This aspect of the team was effective, and as a result of this the prototype we established early on in the project was kept to and hence
+                    the interactiveness and functionality of the website went as planned.
+                </li>
+                <li>
+                    As for the grades we have achieved, it is fair to say that I have been a little disappointed throughout the project due to our team perhaps
+                    not completing the work to the standard I would have wished; however, with these last assessments in consideration, I believe that we have done
+                    a much more improved job than the previous two assessment pieces.
+                </li>
+            </ul>
+
+            <h3>Learning Experience</h3>
+
+            <p>
+                I feel that I have learnt a considerable amount to do with web programming as a result of the creation of Dine Locator. While I did not have
+                much to do with the prototyping of this project (since it was not my original concept), I still feel that having being exposed to more content
+                that is design focused, it has allowed me to gain experience that I can use in future courses and work experience in the future.<br><br> 
+                
+                In some cases, I was unimpressed with the way that this course was structured, particularly through the later practical classes and a majority of 
+                the contact classes. 
+            </p>
+
+            <ul>
+                <li>
+                    I felt that some of the contact classes did not necessarily assist towards either learning course content or assist with teams. 
+                    For example, at the beginning of the course, I felt that it was very unusual that for a team-based course that we would only be able
+                    to form a team in week 5 (public holiday in week 4) only for an assessment piece to be due directly a week later (with people I had no
+                    experience with). To me, this was a major flaw and led to perhaps worse grades in the course. The work I did in the first three weeks 
+                    of this course was rendered useless since it was not my idea that was chosen, and while that was always going to be the case for some people, 
+                    I really do feel this aspect of the course could have been structured more effectively. Additionally, I felt like during the MVP, such little
+                    attention was given towards the coding aspects of this course and, at one stage, it felt like the class was identical two weeks in a row.
+                </li>
+                <li>
+                    The second, and perhaps more concerning matter of this course was the introduction of PHP. I personally found it very confusing that PHP
+                    was introduced so late into the course. To make matters worse, the 2 weeks prior to this were spent going over content like storyboards, 
+                    something that everyone had already done in previous courses and during contacts. As a result of this, I never felt comfortable enough with
+                    PHP where I felt I could use it for Dine Locator and hence I never really focused on it and never learnt it.
+                </li>
+            </ul>
+
+            <h3>Recommendations</h3>
+
+            <ul>
+                <li>PAF for students to rate other students performance</li>
+                <li>More practical contact classes</li>
+                <li>Less attention towards previously known/obvious concepts (i.e. storyboards)</li>
+                <li>Earlier team formation</li>
+                <li>Percentage based grading and final grade formation (i.e. 64% on an assessment is 64% not rounded down to a 4)</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="portfolio" class="section">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-content">
+            <img id="mvp-img" src="images/portfolio.png" alt="portfolio image">
+            <p>
+               <br>This portfolio has been designed with the primary focus being on Dine Locator's evolution and how I have contributed to this being possible.<br><br>
+
+               The portfolio you see here was created and designed by myself and has been done using vanilla JavaScript, HTML and CSS coding languages. I am
+               pleased with how it looks and captures my semester excellently. I feel that overall this course has been enjoyable, but certainly has room
+               for improvement. The website's design inspiration came from a previous year student's work and how they structured their website, whereas the
+               colour decisions were purely for my likening to the colour green.<br><br>
+
+               If this webpage was to be improved, the primary consideration would be making it more responsive (i.e. making it look better on different
+               screen sizes like a mobile device).
+            </p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>James de Raat 2023</p>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
